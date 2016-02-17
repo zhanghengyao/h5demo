@@ -1,0 +1,42 @@
+.tPageList .tP5_0 {
+  padding: 5px 0;
+}
+.tPageList .tP10_0 {
+  padding: 10px 0;
+}
+.tPageList .tH80 {
+  height: 80px;
+}
+.tPageList .tLH24 {
+  line-height: 24px;
+}
+.tPageList .tFC42 {
+  color: #424242;
+}
+.tPageList .tFC9e {
+  color: #9e9e9e;
+}
+.tPageList .tFC75 {
+  color: #757575;
+}
+.tPageList .tFCfb8c00 {
+  color: #fb8c00;
+}
+.tPageList .tBBe6 {
+  border-bottom: solid 1px #e6e6e6;
+}
+.tPageList .tVALM > * {
+  vertical-align: middle;
+}
+.tPageList .people-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 6px;
+  fill: #fb8c00;
+}
+.tPageList .status-tip {
+  right: 15px;
+  top: 22px;
+}
+
+/*# sourceMappingURL=../../pages/list/PageList.css.map */

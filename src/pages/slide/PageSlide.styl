@@ -1,0 +1,366 @@
+@keyframes shake
+  0%
+    top 20px
+    left 140px
+  50%
+    top 30px
+    left 150px
+  100%
+    top 20px
+    left 140px
+
+@-webkit-keyframes shake
+  0%
+    top 20px
+    left 140px
+  50%
+    top 30px
+    left 150px
+  100%
+    top 20px
+    left 140px
+
+@keyframes fadeout
+  0%
+    opacity 1
+    left 0
+  100%
+    opacity 0
+    left 100%
+
+@-webkit-keyframes fadeout
+  0%
+    opacity 1
+    left 0
+  100%
+    opacity 0
+    left 100%
+
+@keyframes down
+  0%
+    transform translate(0px, 0px)
+    -webkit-transform translate(0px, 0px)
+  60%
+    transform translate(0px, 245px)
+    -webkit-transform translate(0px, 245px)
+  80%
+    transform translate(0px, 215px)
+    -webkit-transform translate(0px, 215px)
+  100%
+    transform translate(0px, 245px)
+    -webkit-transform translate(0px, 245px)
+
+@-webkit-keyframes down
+  0%
+    transform translate(0px, 0px)
+    -webkit-transform translate(0px, 0px)
+  60%
+    transform translate(0px, 245px)
+    -webkit-transform translate(0px, 245px)
+  80%
+    transform translate(0px, 215px)
+    -webkit-transform translate(0px, 215px)
+  100%
+    transform translate(0px, 245px)
+    -webkit-transform translate(0px, 245px)
+
+@keyframes down2
+  0%
+    transform translate(0px, 0px)
+    -webkit-transform translate(0px, 0px)
+  60%
+    transform translate(0px, 200px)
+    -webkit-transform translate(0px, 200px)
+  80%
+    transform translate(0px, 215px)
+    -webkit-transform translate(0px, 215px)
+  100%
+    transform translate(0px, 200px)
+    -webkit-transform translate(0px, 200px)
+
+@-webkit-keyframes down2
+  0%
+    transform translate(0px, 0px)
+    -webkit-transform translate(0px, 0px)
+  60%
+    transform translate(0px, 200px)
+    -webkit-transform translate(0px, 200px)
+  80%
+    transform translate(0px, 215px)
+    -webkit-transform translate(0px, 215px)
+  100%
+    transform translate(0px, 200px)
+    -webkit-transform translate(0px, 200px)
+
+@keyframes fadeIn
+  0%
+    opacity 0
+  100%
+    opacity 1
+
+@-webkit-keyframes fadeIn
+  0%
+    opacity 0
+  100%
+    opacity 1
+
+.lwSlide
+  #homepage
+    .figure
+      width 160px
+      height 180px
+      background url(../../images/homepage.png) center center no-repeat
+      background-size 100%
+      top 108px
+      position absolute
+      left 50%
+      margin-left -80px
+      z-index 2
+    .msgBox
+      position absolute
+      width 100%
+      bottom 18%
+      left 50%
+      -webkit-transform translate(-50%)
+      transform translate(-50%)
+      .message
+        line-height 30px
+        color #b5b5b5
+      .hometalk
+        background url(../../images/hometalk.png)
+        background-size cover
+        width 200px
+        height 84px
+        margin 0 auto
+  #lastPage
+    .figure
+      width 160px
+      height 160px
+      background url(../../images/lastpage.png) no-repeat
+      background-size 100%
+      top 120px
+      position absolute
+      left 50%
+      margin-left -80px
+      z-index 2
+      background-position 0px 0px
+    .figBrokenBox
+      width 100%
+      background white
+      position absolute
+      z-index 3
+      height 172px
+      padding-top 40px
+      top -132px
+      &.down
+        animation down 0.2s forwards
+        -webkit-animation down 0.2s forwards
+      &.down2
+        animation down2 0.2s forwards
+        -webkit-animation down2 0.2s forwards
+      &.down3
+        animation down3 0.2s forwards
+        -webkit-animation down3 0.2s forwards
+      .figBroken
+        position absolute
+        left 50%
+        width 139px
+        height 132px
+        margin-left -70px
+        background url(../../images/broken.png)
+        background-size 100%
+    .msgBox
+      opacity 0
+      position absolute
+      width 100%
+      bottom 21%
+      left 50%
+      -webkit-transform translate(-50%)
+      transform translate(-50%)
+      .message
+        line-height 30px
+        color #b5b5b5
+      &.fadeIn
+        animation fadeIn 0.5s forwards
+        -webkit-animation fadeIn 0.5s forwards
+      .lasttalk
+        background url(../../images/lasttalk.png)
+        background-size cover
+        width 200px
+        height 84px
+        margin 0 auto
+
+  #dialogBox
+    padding 83px 0 0 28px
+    .dialog
+      z-index 2
+      position relative
+      & + .dialog
+        margin-top 30px
+      &.fadeout
+        animation fadeout 0.5s forwards
+        -webkit-animation fadeout 0.5s forwards
+      &.fadeIn
+        animation fadeIn 0.5s forwards
+        -webkit-animation fadeIn 0.5s forwards
+      .avatar
+        width 35px
+        height 35px
+        border-radius 50%
+        background-color #ffe326
+        vertical-align top
+        margin-right 10px
+        background url(../../images/avatar.png) no-repeat
+        background-size 100%
+      .borderFix
+        width 15px
+        height 15px
+        vertical-align top
+        margin-top 5px
+        background white
+        position relative
+        border-top 0.5px solid #cccccc
+        &:before
+          margin-left -1px
+          width 15px
+          height 15px
+          background #f2f2f2
+          content ''
+          display inline-block
+          border-top-right-radius 15px
+          border-top 0.5px solid #cccccc
+          border-right 0.5px solid #cccccc
+      .message
+        margin-top 5px
+        margin-left -2px;
+        line-height 33px
+        height 35px
+        vertical-align top
+        padding 0 30px 0 20px
+        font-weight 200
+        color #444444
+      .talk1
+        background url(../../images/talk1.png) no-repeat
+        background-size auto 100%
+        width 175px
+      .talk2
+        background url(../../images/talk2.png) no-repeat
+        background-size auto 100%
+        width 175px
+      .talk3
+        background url(../../images/talk3.png) no-repeat
+        background-size auto 100%
+        width 175px
+      .talk4
+        background url(../../images/talk4.png) no-repeat
+        background-size auto 100%
+        width 175px
+
+      .hand
+        width 74px
+        height 82px
+        background url(../../images/second.png) no-repeat
+        background-size 100%
+        position absolute
+        top 20px
+        left 140px
+        animation shake 1s infinite
+        -webkit-animation shake 1s infinite
+        background-position 0px 0px
+      .clock
+        width 15px
+        height 15px
+        background url(../../images/clock.png) no-repeat
+        background-size 100% 100%
+        position absolute
+        left 156px
+      .countDown
+        width 18px
+        height 18px
+        line-height 18px
+        position absolute
+        left 142px
+        border-radius 50%
+        color white
+        background #fe514d
+        text-align center
+  .dotBox
+    position fixed
+    bottom 40px
+    left 50%
+    -webkit-transform translate(-50%)
+    transform translate(-50%)
+    .dot
+      & + .dot
+        margin-left 10px
+      width 8px
+      height 8px
+      -webkit-border-radius 4px
+      border-radius 4px
+      background-color #d9d9d9
+      &.active
+        background-color #ffe326
+
+#canvas1
+  position absolute
+  top 170px
+  left 50%;
+
+#canvas2
+  position absolute
+  top 170px
+  left 0
+
+#canvas3
+  position absolute
+  top 170px
+  left 0
+
+.h40
+  height 40px
+
+.tLH40
+  line-height 40px
+
+.container
+  border-top 1px solid #e7bb10
+  background-color #ffe326
+  position fixed
+  bottom 0
+  width 100%
+  .register
+    width 50%
+  .login
+    width 50%
+    border-left 1px solid #f5d116
+
+@media screen and (min-height: 640px)
+  .lwSlide
+    #homepage
+      .msgBox
+        bottom 29%
+    #lastPage
+      .msgBox
+        bottom 29%
+
+  @media screen and (max-height: 490px)
+
+
+    .lwSlide
+      #homepage
+        .figure
+          top 56px
+        .msgBox
+          bottom 18%
+      #canvas1
+        top 118px
+      #canvas2
+        top 118px
+      #canvas3
+        top 118px
+      #lastPage
+        .figure
+          top 65px
+        .msgBox
+          bottom 18%
+

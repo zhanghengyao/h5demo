@@ -1,0 +1,22 @@
+@import url(app/app.css);
+@import url(components/Calendar/Calendar.css);
+
+@import url(pages/about/about.css);
+@import url(pages/blackboard/blackboard.css);
+@import url(pages/button/PageButton.css);
+@import url(pages/calendar/PageCalendar.css);
+@import url(pages/dialog/PageDialog.css);
+@import url(pages/form/PageForm.css);
+@import url(pages/home/PageHome.css);
+@import url(pages/icon/PageIcon.css);
+@import url(pages/layout/PageLayout.css);
+@import url(pages/list.back/PageList.css);
+@import url(pages/list/PageList.css);
+@import url(pages/motorcycle/PageMotorCycle.css);
+@import url(pages/native/PageNative.css);
+@import url(pages/other-components/PageOtherComponents.css);
+@import url(pages/other/PageOther.css);
+@import url(pages/project/PageProject.css);
+@import url(pages/result/PageResult.css);
+@import url(pages/slide/PageSlide.css);
+@import url(pages/tip/PageTip.css);

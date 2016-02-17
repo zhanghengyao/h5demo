@@ -1,0 +1,16 @@
+{
+  "generator-alinw": {
+    "ctx": {
+      "name": "tingle-ui",
+      "description": "tingle-ui",
+      "family": "tinglejs",
+      "author": "fushan",
+      "version": "0.1.0",
+      "homepage": "http://gitlab.alibaba-inc.com/tinglejs/tingle-ui",
+      "repository": "git@gitlab.alibaba-inc.com:tinglejs/tingle-ui.git",
+      "keywords": "tingle-ui",
+      "skipInstall": false,
+      "type": "h5"
+    }
+  }
+}

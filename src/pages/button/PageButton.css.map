@@ -1,0 +1,1 @@
+{"version":3,"sources":["pages/button/PageButton.styl"],"names":[],"mappings":"AAAA;EACE,kBAAiB,QAAjB;EACA,cAAa,KAAb;EACA,eAAc,KAAd;;AAEA;EACE,QAAO,UAAP","file":"pages/button/PageButton.css","sourcesContent":[".page-button\r\n  background-color #f2f2f2\r\n  padding-left 15px\r\n  padding-right 15px\r\n\r\n  .tButton\r\n    margin 10px auto\r\n"],"sourceRoot":"/source/"}

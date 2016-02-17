@@ -1,0 +1,1 @@
+{"version":3,"sources":["pages/tip/PageTip.styl"],"names":[],"mappings":"AAAA;EACE,cAAa,KAAb;EACA,eAAc,KAAd;;AACA;EACE,YAAW,KAAX","file":"pages/tip/PageTip.css","sourcesContent":[".page-tip\r\n  padding-left 15px\r\n  padding-right 15px\r\n  .demo\r\n    margin-top 10px\r\n"],"sourceRoot":"/source/"}

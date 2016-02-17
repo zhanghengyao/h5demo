@@ -1,0 +1,31 @@
+.iconGridItem {
+  width: 100%;
+  height: 100%;
+}
+.iconGridItem.hover {
+  background: #f6f6f6;
+}
+.iconGridItem .iconText {
+  font-size: 0.4rem;
+  margin-top: 0.213333333333333rem;
+}
+.iconGridItem .iconGridIcon {
+  width: 1.6rem;
+  height: 1.6rem;
+  position: relative;
+}
+.iconGridItem .iconGridIcon .iconBg {
+  width: 1.6rem;
+  height: 1.6rem;
+  fill: #f8f8f8;
+}
+.iconGridItem .iconGridIcon .iconIs {
+  position: absolute;
+  top: 0.4rem;
+  left: 0.4rem;
+  width: 0.8rem;
+  height: 0.8rem;
+  fill: #000;
+}
+
+/*# sourceMappingURL=../../pages/icon/PageIcon.css.map */

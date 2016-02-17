@@ -1,0 +1,1 @@
+{"version":3,"sources":["pages/dialog/PageDialog.styl"],"names":[],"mappings":"AAAA;EACE,SAAQ,KAAR;;AAEF;EACE,eAAc,KAAd","file":"pages/dialog/PageDialog.css","sourcesContent":[".page-dialog\r\n  padding 15px\r\n\r\n.demo\r\n  margin-bottom 15px"],"sourceRoot":"/source/"}

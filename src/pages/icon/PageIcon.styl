@@ -1,0 +1,30 @@
+@require '../../../node_modules/tingle-style/src/var'
+
+gray_color = #ddd
+gray_line = 1px solid gray_color
+gray_hairline = 0.5px solid #ccc
+icon_size = rem(120)
+
+.iconGridItem
+  width 100%
+  height 100%
+  &.hover
+    background #f6f6f6
+  .iconText
+    font-size 0.4rem
+    margin-top rem(16)
+  .iconGridIcon
+    width icon_size
+    height icon_size
+    position relative
+    .iconBg
+      width icon_size
+      height icon_size
+      fill #f8f8f8
+    .iconIs
+      position absolute
+      top rem(30)
+      left rem(30)
+      width rem(60)
+      height rem(60)
+      fill #000

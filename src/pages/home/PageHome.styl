@@ -1,0 +1,69 @@
+@require '../../../node_modules/tingle-style/src/var'
+
+gray_color = #ddd
+gray_line = 1px solid gray_color
+gray_hairline = 0.5px solid #ccc
+icon_size = rem(120)
+
+.homeSlide
+  .tSlideView
+    height 6rem !important
+    img
+      width 100%
+      height 100%
+
+.tingleIntro
+  -webkit-transition background-color 1s
+  transition background-color 1s
+
+.tingleSvg
+  width 8rem
+  height 4rem
+  fill #fff
+
+.homeGridItem
+  width 100%
+  height 100%
+  .iconText
+    font-size 16px
+    margin-top rem(16)
+  .homeGridIcon
+    width icon_size
+    height icon_size
+    position relative
+    .iconBg
+      width icon_size
+      height icon_size
+    .iconIs
+      position absolute
+      top rem(30)
+      left rem(30)
+      width rem(60)
+      height rem(60)
+      fill #fff
+  &.hover
+    background #f6f6f6
+
+for color, index in #fa8169 #6eb5eb #74d18d #D79F6E #8790db #03A9F4 #af86d5 #df3670 #9ad26e #d86d6d #7CB342 #FBC02D #676767 #7E57C2 #8790db
+  .iconColor{index}
+    fill color
+
+// 待提取成tingle组件
+.tGrid
+  border-top gray_line
+  .hairline &
+    border-top gray_hairline
+
+.tGridRow
+  border-bottom gray_line
+  .hairline &
+    border-bottom gray_hairline
+
+.tGridItem
+  font-size rem(20)
+
+.tGridItem + .tGridItem
+  border-left gray_line
+
+.hairline .tGridItem + .tGridItem
+  border-left gray_hairline

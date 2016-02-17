@@ -1,0 +1,42 @@
+.layoutPage .demoRow {
+  text-align: center;
+  height: 1rem;
+  line-height: 1rem;
+  color: #fff;
+  margin: 10px 0;
+}
+.layoutPage .color1 {
+  background-color: #fa8169;
+}
+.layoutPage .color2 {
+  background-color: #9ad26e;
+}
+.tW1R {
+  width: 1rem;
+}
+.tW2R {
+  width: 2rem;
+}
+.tW3R {
+  width: 3rem;
+}
+.tW4R {
+  width: 4rem;
+}
+.tW5R {
+  width: 5rem;
+}
+.tW6R {
+  width: 6rem;
+}
+.tW7R {
+  width: 7rem;
+}
+.tW8R {
+  width: 8rem;
+}
+.tW9R {
+  width: 9rem;
+}
+
+/*# sourceMappingURL=../../pages/layout/PageLayout.css.map */

@@ -1,0 +1,26 @@
+.blackboard-organization {
+  padding: 15px 15px 15px 0;
+}
+.blackboard-organization .count {
+  font-size: 40px;
+  color: #288df0;
+  font-weight: bold;
+  text-align: right;
+}
+.blackboard-organization .organizationCount {
+  padding-top: 15px;
+}
+.line-charts-container {
+  padding: 15px 15px 15px 0;
+}
+.blackboard-table td {
+  padding: 15px 0;
+}
+.blackboard-strong {
+  color: #288df0;
+}
+.blackboard-highlight {
+  color: #ff353d;
+}
+
+/*# sourceMappingURL=../../pages/blackboard/blackboard.css.map */

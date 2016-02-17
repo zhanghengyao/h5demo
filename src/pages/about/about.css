@@ -1,0 +1,22 @@
+body {
+  background: #f2f2f2;
+}
+.tTabBody {
+  margin-top: -2px;
+}
+.about-item {
+  height: 66px;
+}
+.about-item .pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.about-item .info {
+  padding-left: 10px;
+}
+.project-tingle .tGroup_ListItem {
+  line-height: 44px;
+}
+
+/*# sourceMappingURL=../../pages/about/about.css.map */

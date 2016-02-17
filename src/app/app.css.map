@@ -1,0 +1,1 @@
+{"version":3,"sources":["app/app.styl"],"names":[],"mappings":"AAAA;EACE,kBAAiB,QAAjB;;AAEF;EACE,SAAQ,KAAR;;AAEF;EACE,kBAAiB,KAAjB","file":"app/app.css","sourcesContent":["body\r\n  background-color #f2f2f2\r\n\r\n.tGroup_Head\r\n  padding 14px\r\n\r\n.tGroup_List\r\n  background-color #fff\r\n"],"sourceRoot":"/source/"}
